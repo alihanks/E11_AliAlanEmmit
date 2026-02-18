@@ -7,7 +7,7 @@ arguments = sys.argv
 print(arguments)
 
 data_path = 'data/' + arguments[1]
-runtime = arguments[2]
+runtime = int(arguments[2])
 
 file = open(data_path,'w', newline = None)
 
